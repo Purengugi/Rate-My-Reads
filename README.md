@@ -1,20 +1,6 @@
-# RateMyReads API
+# RateMyReads
 - This project entails developing a robust Django REST API tailored for managing user accounts and meticulously organizing book preferences. It facilitates seamless user interaction through a sophisticated comment system embedded within book reviews.
 - It provides endpoints for user authentication, CRUD operations on books, retrieval of top-rated and recently added books, an average of the total book ratings and commenting functionality on book entries.
-
-# Table of Contents
-- Project Objectives
-- Features
-- Technologies Used
-- Getting Started
-- Access the API
-- Usage
-- Example Scenarios
-- Relevant Resources & Documentation
-- Troubleshooting Tips
-- Contribution Guidelines
-- Contact Information
-- Licensing
 
 ## Project Objectives
 The primary goals of this project are to provide users with a seamless experience for managing book preferences and engaging in dynamic commenting on book entries. By offering a robust Django REST API, the aim is to facilitate efficient user interaction and streamline book management tasks.
@@ -24,7 +10,6 @@ The primary goals of this project are to provide users with a seamless experienc
 - Books Management: Supports CRUD operations for books.
 - Book Listing: Provides access to top-rated, recently added, an average of the total book ratings and genre-based book collections, as well as search and ordering capabilities.
 - Comments: Enables users to engage in dynamic commenting on other users' book entries.
-
 
 ## Technologies Used
 - Django: A high-level Python web framework for rapid development.
@@ -36,7 +21,7 @@ To get started with the project, follow these steps:
 
 ### Clone the repository:
 
-- git clone https://github.com/Nimo08/RateMyReads-API.git
+- git clone https://github.com/Purengugi/Rate-My-Reads.git
 - cd project
 - Set up environment variables:
 - Create a .env file in the project root directory and define the following environment variables:
@@ -88,11 +73,6 @@ Contributions from the community are welcome to help improve the project. If you
 - Make your changes and ensure that all tests pass.
 - Submit a pull request detailing the changes you've made and the problem they address.
 - Ensure your code follows the project's coding style and conventions.
-
-## Contact Information
-If you have any questions, encounter issues, or would like to provide feedback, feel free to reach out to me in the social media platforms below:
-- X: https://twitter.com/nimo_m_h/
-- dev.to: https://dev.to/dashboard
 
 ## Licensing
 - This project is independent and free to use for educational and non-commercial purposes. If you have specific inquiries about usage beyond the outlined terms, feel free to reach out for clarification.
