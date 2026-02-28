@@ -1,4 +1,4 @@
-# RateMyReads
+# Rate-My-Reads
 - This project entails developing a robust Django REST API tailored for managing user accounts and meticulously organizing book preferences. It facilitates seamless user interaction through a sophisticated comment system embedded within book reviews.
 - It provides endpoints for user authentication, CRUD operations on books, retrieval of top-rated and recently added books, an average of the total book ratings and commenting functionality on book entries.
 
