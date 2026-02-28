@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RateMyReads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #456;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #fff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #345;
+            margin-top: 0;
+        }
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        p {
+            color: #666;
+        }
+        a {
+            color: #345;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RateMyReads</h1>
+        <p>Explore, rate, and track your favorite reads!</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to RateMyReads API!</h2>
+        <p>Already have an account? <a href="http://127.0.0.1:8000/api/v1/sign_in/">Sign in</a>.</p>
+        <p>Don't have an account yet? <a href="http://127.0.0.1:8000/api/v1/sign_up/">Sign up</a>.</p>
+    </div>
+    <footer>
+        <p>RateMyReads API - All rights reserved</p>
+    </footer>
+</body>
+</html>
